@@ -1,0 +1,331 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width: 601px){
+
+body{
+	margin: 0 auto;
+	color: black;
+	background-color: #fff;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif
+}
+
+h1{
+	text-indent:-9000px;
+}
+
+#container{
+margin: 0 auto;
+	}
+
+
+
+/*h_top*/
+
+		#h_top li{
+			color: black;
+		}
+
+		#h_top{
+			line-height: 1.5em;
+			float: right;
+			width: 40%;
+			font-size: 0.75em;
+			margin-top: 50px;
+		}
+		#logo_image{
+		float: left;
+		}
+
+		/*nav1*/
+		#nav1 {
+		clear: both;
+
+		}
+
+		#nav1 ul{
+    padding-top: 18px;
+		display: flex;
+    flex-flow: column;
+		}
+
+		#nav1 li{
+		text-align: center;
+		margin: 10px;
+		}
+
+		#nav1 li:hover {
+
+		background-color:rgba(240, 240, 240, 0.85);
+		font-size: 30px;
+		border-radius: 3px;
+		text-align: center;
+		box-shadow: 5px -5px 2.5px rgba(0,0,0,0.7);
+		}
+
+
+		#nav1 a{
+		font-size: 25px;
+		font-weight: 600;
+		color: #666;
+		}
+
+		article{
+		clear: both;
+		}
+
+h2{
+
+border-top: 5px #456 solid;
+padding: 20px 0px 0px 75px;
+font-size: 40px;
+font-weight: 700;
+font-family: 'Dancing Script', cursive;
+clear: both;
+}
+
+table{
+text-align: left;
+}
+ #m1{
+
+}
+
+#m1 th{
+float: left;
+}
+.m_1 {
+
+width: 330px;
+height: 40px;
+}
+.m_2 {
+						width: 150px;
+						height: 40px;
+					}
+.m_2 {
+						width: 100px;
+						height: 40px;
+					}
+ .m_3{
+white-space: nowrap;
+}
+
+					#m_g{
+					
+					}
+
+					.neil_1_g{
+
+						border-radius: 5%;
+					}
+
+					#neil_4_g{
+						float: left;
+						border-radius: 5%;
+						margin: 10px 10px 10px 95px;
+					}
+
+
+
+
+
+
+		h3{
+		border-top: 2px #456 solid;
+		color: black;
+		margin-bottom: 15px;
+		font-size: 40px;
+		font-weight: 700;
+		font-family: 'Dancing Script', cursive;
+		text-align: center;
+		clear: both;
+		}
+
+					article #m2{
+
+
+						height: auto;
+						float: left;
+						clear: both;
+					}
+
+					.n_1 {
+						width: 150px;
+						height: 40px;
+					}
+					.n_2 {
+						width: 150px;
+						height: 40px;
+						 white-space: nowrap;
+					}
+					.n_3 {
+						width: 80px;
+						height: 40px;
+					}
+					.n_4 {
+						width: 80px;
+						height: 40px;
+						white-space: nowrap;
+					}
+					.n_5 {
+						width: 70px;
+						height: 40px;
+						white-space: nowrap;
+					}
+
+
+			#m3{
+				margin-left: 50px;
+				font-size: 25px;
+			}
+
+			#neil_1{
+				float: left;
+				width: 40%;
+				height: 40%;
+				margin-top: 40px;
+				border-radius: 10%;
+			}
+
+			#kimono_1{
+				float: left;
+width: 45%;
+				height: 45%;
+				margin-bottom: 25px;
+			}
+
+			h4{
+				padding-left: 75px;
+				margin-top: 10px;
+				margin-bottom: 20px;
+				font-size: 40px;
+				font-weight: 700;
+				font-family: 'Dancing Script', cursive;
+			}
+
+			article #m4{
+
+				height: auto;
+				margin: 0px 0px 0px 50px;
+				float: left;
+				clear: both;
+				overflow: hidden;
+			}
+
+			.k_1 {
+				width: 330px;
+				height: 40px;
+			}
+			.k_2 {
+				width: 150px;
+				height: 40px;
+			}
+			.k_2 {
+				width: 100px;
+				height: 40px;
+				white-space: nowrap;
+			}
+.k_3{
+    white-space: nowrap;
+   }
+#m_text{
+	    clear: both;
+	font-size: 20px;
+	
+}
+/*フォトギャラリー*/
+.example-image{
+height: 100px;
+width: 100px;
+}
+
+/*nav3*/
+
+#nav3{
+border-bottom: 2px #456 solid;
+line-height: 2.2;
+text-align: center;
+text-decoration: underline;
+}
+
+#nav3 ul{
+margin-left: 15px;
+}
+
+#nav3 a{
+text-decoration: none;
+}
+
+/*sns*/
+#sns{
+display: flex;
+align-items: center;
+}
+
+#sns img{
+	margin-left: 10px;
+}
+
+
+
+.hdn{
+color: #00aeef;
+text-decoration: none;
+margin-left: 10px;
+}
+
+#hdn_2{
+	font-size: 5px;
+}
+
+#hdn_3{
+	font-size: 11px;
+}
+
+.pagetop {
+    display: none;
+    position: fixed;
+
+}
+.pagetop a {
+    display: block;
+    background-color: #FEB;
+		border-radius: 10%;
+    text-align: center;
+    color: #222;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 25px 30px;
+	filter:alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+
+.pagetop a:hover {
+    display: block;
+    background-color: #b2d1fb;
+		border-radius: 10%;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    padding:25px 30px;
+		filter:alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+		transition-property: all;
+		transition-duration: 0.2s;
+		transition-timing-function: ease-in-out;
+}
+
+footer{
+	width: auto;
+	border-top:2px #555 solid;
+	margin:0 auto;
+	padding-top:18px;
+	padding-bottom:25px;
+	text-align:center;
+	font-size:12px;
+	color:#333;
+	}
+}
