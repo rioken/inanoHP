@@ -87,19 +87,17 @@ header{
 
 
 #main_image_b{
-	margin: 0 -100%;
-	padding: 0 100%;
+
 }
 
 #main_image_1{
-	margin: 0 -448px;
+margin: 0 auto;
+    width: 100%;
 }
 
 
 
-#main_image_1{
-	float: left 0,0,0,-800px;
-}
+
 
 
 
