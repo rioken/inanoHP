@@ -78,8 +78,7 @@ float: left;
 }
 #wrapper {
 	background-color: #fff;
-
-	margin: 0 auto;
+    margin: 0 auto;
 }
 
 /*main_image*/
@@ -209,11 +208,9 @@ color: black;
 padding: 10px;
 font-size: 20px;
 }
-	
 #menu{
   border: none;
 }
-	
 h3{
 border-top: 2px #456 solid;
 color: black;

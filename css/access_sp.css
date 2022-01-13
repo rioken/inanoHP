@@ -1,0 +1,279 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width: 601px){
+
+html{
+	overflow: auto;
+}
+body{
+	margin: 0 auto;
+	background-color: #fff;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif
+	}
+
+
+h1{
+	text-indent:-9000px;
+}
+
+/*nav1*/
+#nav1 {
+clear: both;
+
+}
+
+#nav1 ul{
+clear: both;
+padding-top: 18px;
+}
+
+#nav1 li{
+text-align: center;
+margin: 10px;
+}
+
+#nav1 li:hover {
+
+background-color:rgba(240, 240, 240, 0.85);
+font-size: 30px;
+border-radius: 3px;
+text-align: center;
+box-shadow: 5px -5px 2.5px rgba(0,0,0,0.7);
+}
+
+
+#nav1 a{
+font-size: 25px;
+font-weight: 600;
+color: #666;
+}
+
+
+
+/*h_top*/
+
+#h_top li{
+	color: black;
+}
+
+#h_top{
+	line-height: 1.5em;
+	float: right;
+	width: 40%;
+	font-size: 0.75em;
+	margin-top: 50px;
+}
+
+#logo_image{
+float: left;
+}
+#wrapper {
+	background-color: #fff;
+    margin: 0 auto;
+}
+
+/*main_image*/
+#main_image_b{
+	margin: 0 -100%;
+	padding: 0 100%;
+}
+
+#main_image_1{
+	margin: 0 -448px;
+}
+
+
+#main_image_1{
+	float: left 0,0,0,-800px;
+}
+
+
+h3{
+border-top: 2px #456 solid;
+color: black;
+margin-bottom: 15px;
+font-size: 40px;
+font-weight: 700;
+font-family: 'Dancing Script', cursive;
+text-align: center;
+}
+
+
+
+
+		h2{
+			border-top: 5px #456 solid;
+			padding: 50px 0px 0px 75px;
+			margin-top: 175px;
+			font-size: 40px;
+			font-weight: 700;
+			font-family: 'Dancing Script', cursive;
+		}
+
+
+#a_a{
+	float: right;
+}
+
+#a_1{
+	margin-top: 50px;
+}
+
+
+#map_1{
+	margin-left: 225px;
+	padding: 50px 0 ;
+
+}
+
+
+#acce1{
+	padding: 40px 0px 0px 75px;
+	font-size: 19.5px;
+	margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+#h_top{
+	width: 275px;
+	height: 75px;
+	background-color:#fff;
+	float: right;
+	clear: both;
+	overflow: hidden;
+	margin-top: 80px;
+}
+
+#logo_image{
+	margin-left: 20px;
+	width: 264px;
+	height: 146px;
+	float: left;
+}
+
+
+				h2{
+						border-top: 5px #456 solid;
+						padding: 20px 0px 20px 75px;
+						margin-bottom: -25px;
+					
+						font-size: 40px;
+						font-weight: 700;
+						font-family: 'Dancing Script', cursive;
+					}
+
+					#map_1{
+						margin-left: 25px;
+						padding-top: 50px;
+					}
+
+
+					#acce1{
+						margin: 0 auto;
+						padding: 50px 0px 0px 25px;
+						font-size: 18px;
+					}
+
+
+					#a_1{
+						margin-left: 100px;
+					}
+
+/*nav3*/
+
+#nav3{
+border-bottom: 2px #456 solid;
+line-height: 2.2;
+text-align: center;
+text-decoration: underline;
+}
+
+#nav3 ul{
+margin-left: 15px;
+}
+
+#nav3 a{
+text-decoration: none;
+}
+
+/*sns*/
+#sns{
+display: flex;
+align-items: center;
+}
+
+#sns img{
+	margin-left: 10px;
+}
+
+
+
+.hdn{
+color: #00aeef;
+text-decoration: none;
+margin-left: 10px;
+}
+
+#hdn_2{
+	font-size: 5px;
+}
+
+#hdn_3{
+	font-size: 11px;
+}
+
+.pagetop {
+    display: none;
+    position: fixed;
+
+}
+.pagetop a {
+    display: block;
+    background-color: #FEB;
+		border-radius: 10%;
+    text-align: center;
+    color: #222;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 25px 30px;
+	filter:alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+
+.pagetop a:hover {
+    display: block;
+    background-color: #b2d1fb;
+		border-radius: 10%;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    padding:25px 30px;
+		filter:alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+		transition-property: all;
+		transition-duration: 0.2s;
+		transition-timing-function: ease-in-out;
+}
+
+
+footer{
+	border-top: 2px #456 solid;
+	margin: auto;
+	padding-top:18px;
+	padding-bottom:25px;
+	text-align:center;
+	font-size:12px;
+	color:#333;
+	}
+}

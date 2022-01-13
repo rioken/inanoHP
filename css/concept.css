@@ -1,34 +1,26 @@
 @charset "utf-8";
 /* CSS Document */
 
-
+@media screen and (min-width: 599px){
+html{
+	overflow: auto;
+}
 body{
 	margin: 0 auto;
 	background-color: #fff;
-	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif}
-}
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif
+	color: black;
+	}
 
-
-header{
-}
 
 h1{
 	text-indent:-9000px;
 }
 
-
-/*PC用レイアウト*/
-@media only screen and  (min-width:600px){
-
-
-
-	body{
-		width: 1024px;
-			background-color: #fff;
-	}
-
-
-
+/*header*/
+header{
+    padding: 0 100px;
+   }
 
 #h_top{
 	width: 275px;
@@ -36,8 +28,7 @@ h1{
 	background-color:#fff;
 	float: right;
 	clear: both;
-	overflow: hidden;
-}
+	}
 
 #logo_image{
 	margin-left: 50px;
@@ -45,7 +36,9 @@ h1{
 	height: 146px;
 	float: left;
 }
-
+#nav1{
+clear: both;
+}
 
 #nav1 ul{
 	margin-top: 50px;
@@ -84,8 +77,23 @@ h1{
 			text-align: left;
 			box-shadow: 5px -5px 2.5px rgba(0,0,0,0.7);
 		}
+/*headerここまで*/
+#wrapper {
+	background-color: #fff;
+	margin: 0 auto;
+}
 
-		h2{
+h3{		
+border-top: 2px #456 solid;
+padding: 25px 0px 0px 75px;
+color: black;
+margin-bottom: 15px;
+font-size: 40px;
+font-weight: 700;
+font-family: 'Dancing Script', cursive;
+clear: both;
+}
+h2{
 			border-top: 5px #456 solid;
 			padding: 50px 0px 50px 75px;
 			margin-bottom: -25px;
@@ -131,9 +139,6 @@ h1{
 }
 
 
-
-
-
 #c_c{
 	margin-left: 50px;
 	border-radius: 15%;
@@ -154,95 +159,7 @@ h1{
 	margin-left: 50px;
 }
 
-
-}
-
-/*PC用レイアウト*/
-
-/*スマートフォン用レイアウト*/
-
-@media only screen and (max-width:599px){
-	#container{
-		width:100%}
-
-
-body{
-	min-width: 599px;
-	background-color: #fff;
-}
-
-
-
-#h_top{
-	width: 275px;
-	height: 75px;
-	background-color:#fff;
-	float: right;
-	clear: both;
-	overflow: hidden;
-	margin-top: 80px;
-}
-
-#logo_image{
-	margin-left: 20px;
-	width: 264px;
-	height: 146px;
-	float: left;
-}
-
-
-
-			#nav1 ul{
-				margin: 10px 0 20px 150px;
-				width: 300px;
-				height: 220px;
-				float: left;
-				clear: both;
-				background-color:#fff;
-			}
-
-			#nav1 li{
-				transition-property: all;
-				transition-duration: 0.5s;
-				transition-timing-function: ease-in-out;
-				}
-
-
-
-			#nav1 a{
-				margin: 15px;
-				border-radius: 4px;
-					display:block;
-					width:300px;
-					height:40px;
-					text-align: center;
-					text-decoration: none;
-					font-size: 25px;
-					font-weight: 600;
-					color: #666;
-				}
-
-
-				#nav1 li:hover {
-						width: 300px;
-						height: 40px;
-						background-color:rgba(244, 244, 244, 0.85);
-						font-size: 30px;
-						border-radius: 3px;
-						box-shadow: 5px -5px 2.5px rgba(0,0,0,0.7);
-					}
-
-					h2{
-						border-top: 5px #456 solid;
-						padding: 20px 0px 60px 75px;
-						margin-bottom: -25px;
-						margin-top: 400px;
-						font-size: 40px;
-						font-weight: 700;
-						font-family: 'Dancing Script', cursive;
-					}
-
-					#c_a{
+								#c_a{
 						padding: 25px;
 					}
 
@@ -265,30 +182,6 @@ body{
 						margin-left: 50px;
 						width: 500px;
 					}
-
-
-
-
-
-}
-
-/*スマートフォン用レイアウト*/
-
-		#nav3{
-			margin: 50px 0 40px 0 ;
-			border-top: 4px #555 solid;
-			border-bottom:  3px #555 solid;
-			line-height: 2.2;
-		}
-
-		#nav3 ul{
-			margin-left: 15px;
-		}
-
-		#nav3 a{
-			text-decoration: none;
-		}
-
 
 
 
@@ -371,14 +264,31 @@ body{
 				transition-duration: 0.2s;
 				transition-timing-function: ease-in-out;
 		}
+		/*フッターナビ*/
+#nav3{
+    margin: auto 0 40px 0;
+    border-top: 2px #456 solid;
+    line-height: 2.2;
+		}
 
+	#nav3 ul {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+		}
+
+		#nav3 a{
+			text-decoration: none;
+		}
 footer{
 	width: auto;
-	border-top:2px #555 solid;
+	border-top:2px #456 solid;
 	margin:0 auto;
 	padding-top:18px;
 	padding-bottom:25px;
 	text-align:center;
 	font-size:12px;
 	color:#333;
+	}
 	}

@@ -87,88 +87,55 @@ header{
 
 
 #main_image_b{
-
+	margin: 0 -100%;
+	padding: 0 100%;
 }
 
 #main_image_1{
-margin: 0 auto;
-    width: 100%;
+	margin: 0 -448px;
+}
+
+
+
+#main_image_1{
+	float: left 0,0,0,-800px;
 }
 
 
 
 
-
-
-
-article{
-	margin-bottom: 500px;
-}
-
+/*丸サムネイル*/
 #nav2 ul li a {
-	display:block;
-
-	height:50px;
+	display: flex;
+	flex-flow: column;
 	font-size: 40px;
 	text-decoration: none;
 	text-align: center;
 	font-weight: 500;
 	color: #457;
 	background-color: #fff;
-	transition-property: all;
-	transition-duration: 0.5s;
-	transition-timing-function: ease-in-out;
 }
-
-#nav2 li a:hover {
-		color: #579;
-		background-color:rgba(255, 255, 255, 0.85);
-		font-size: 55px;
-		border-radius: 3px;
-		text-indent: 10px;
-	}
-	#nav2 ul{
+#nav2 ul{
 		display: flex;
+		justify-content: space-between;
+		padding: 0 50px;
 	}
-
-
 
 #nav2 ul li img {
 	margin-top: 25px;
 	border-radius: 50%;
-	transition-property: all;
-	transition-duration: 0.5s;
-	transition-timing-function: ease-in-out;
 
 }
 
-#nav2 ul li img:hover {
-	margin-top: 25px;
-	border-radius: 10%;
+article{
+	margin-bottom: 100px;
 }
 
 
 
 
-#concept2{
 
-	float: left;
-	clear: both;
-}
-
-
-#menu2{
-	margin-left: 68px;
-	float: left;
-}
-
-
-#access2{
-	margin-left: 68px;
-	float: left;
-}
-
-
+/*ニュース*/
 #news{
 	width: 700px;
 	height: 250px;
@@ -206,11 +173,12 @@ article{
 
 #menu{
   border: none;
+  font-size: 40px;
 }
 h3{
 	border-top: 2px #456 solid;
 	padding: 25px 0px 0px 75px;
-color: black;
+    color: black;
 	margin-bottom: 15px;
 	font-size: 40px;
 	font-weight: 700;
@@ -221,12 +189,11 @@ color: black;
 
 
 
-
+/*フッターナビ*/
 #nav3{
 margin: auto 0 40px 0 ;
 border-top: 2px #456 solid;
-
-	line-height: 2.2;
+line-height: 2.2;
 }
 
 #nav3 ul{
