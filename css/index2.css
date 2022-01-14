@@ -149,25 +149,25 @@ article{
 
 
 #news dl{
-	padding: 10px;
+
 	font-size: 20px;
 
 }
 
 
 #news dl dt{
-	border-bottom: 1px #987 solid;
-	margin: 15px;
-	padding-top: 15px;
-	font-size: 15px;
-		color: black;
-		text-align: left;
+border-bottom: 1px #987 solid;
+ margin: 2px;
+ padding-top: 15px;
+    font-size: 18px;
+    color: black;
+    text-align: left;
 }
 
 #news dl dd{
-	margin: 10px;
-	margin-left: 40px;
-	font-size: 12px;
+	text-align: left;
+	margin-left: 123px;
+	font-size: 16px;
 	color: black;
 }
 
@@ -175,6 +175,10 @@ article{
   border: none;
   font-size: 40px;
 }
+
+h2{
+    font-size: 20px;
+   }
 h3{
 	border-top: 2px #456 solid;
 	padding: 25px 0px 0px 75px;

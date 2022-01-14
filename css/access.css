@@ -5,12 +5,12 @@
 html{
 	overflow: auto;
 }
-body{
+/*body{
 	margin: 0 auto;
 	color: black;
 	background-color: #fff;
 	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif
-}
+}*/
 
 h1{
 	text-indent:-9000px;
@@ -33,6 +33,7 @@ header{
 	height: 146px;
 	float: left;
 }
+
 #nav1{
 clear: both;
 }

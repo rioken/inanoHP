@@ -30,11 +30,11 @@ background-color: #fff;
 clear: both;
 
 }
-
-#nav1 ul{
-clear: both;
-padding-top: 18px;
-}
+	#nav1 ul{
+    padding-top: 18px;
+		display: flex;
+    flex-flow: column;
+		}
 
 #nav1 li{
 text-align: center;
@@ -66,15 +66,17 @@ color: #666;
 }
 
 #h_top{
-	line-height: 1.5em;
-	float: right;
-	width: 40%;
-	font-size: 0.75em;
-	margin-top: 50px;
+line-height: 1.5em;
+    float: right;
+    /* width: 40%; */
+    font-size: 0.75em;
+    /* margin-top: 50px; */
+    white-space: nowrap;
 }
 
 #logo_image{
 float: left;
+padding-left: 5px;
 }
 #wrapper {
 	background-color: #fff;
@@ -192,7 +194,7 @@ font-size: 20px;
 border-bottom: 1px #987 solid;
 margin: 15px;
 padding-top: 15px;
-font-size: 15px;
+font-size: 16px;
 color: black;
 
 }
@@ -200,7 +202,7 @@ color: black;
 #news dl dd{
 margin: 10px;
 margin-left: 40px;
-font-size: 12px;
+font-size: 16px;
 color: black;
 }
 
