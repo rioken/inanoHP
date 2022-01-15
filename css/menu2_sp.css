@@ -74,6 +74,20 @@ line-height: 1.5em;
 		clear: both;
 		}
 
+		h3{
+		border-top: 2px #456 solid;
+		color: black;
+		margin-bottom: 15px;
+		font-size: 40px;
+		font-weight: 700;
+		font-family: 'Dancing Script', cursive;
+		text-align: center;
+		clear: both;
+		}
+		
+		#m1{
+		padding: 0;
+		}
 h2{
 
 border-top: 5px #456 solid;
@@ -127,23 +141,7 @@ white-space: nowrap;
 						border-radius: 5%;
 						
 					}
-
-
-
-
-
-
-		h3{
-		border-top: 2px #456 solid;
-		color: black;
-		margin-bottom: 15px;
-		font-size: 40px;
-		font-weight: 700;
-		font-family: 'Dancing Script', cursive;
-		text-align: center;
-		clear: both;
-		}
-
+					
 					article #m2{
 						height: auto;
 						float: left;
@@ -192,7 +190,7 @@ white-space: nowrap;
 			#kimono_1{
 		width: 45%;
 				height: auto;
-				margin-bottom: 25px;
+				
 			}
 
 			h4{
@@ -247,17 +245,19 @@ text-decoration: underline;
 }
 
 #nav3 ul{
-margin-left: 15px;
+
 }
 
 #nav3 a{
 text-decoration: none;
+
 }
 
 /*sns*/
 #sns{
 display: flex;
 align-items: center;
+padding: 0;
 }
 
 #sns img{
