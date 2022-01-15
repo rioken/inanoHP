@@ -19,6 +19,9 @@ h1{
 	}
 
 /*header*/
+li a{
+color: black;
+}
 header{
     padding: 0 100px;
    }
