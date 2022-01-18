@@ -131,7 +131,9 @@ header{
 }
 
 article{
-	margin-bottom: 100px;
+margin-bottom: 100px;
+width: 90%;
+margin: 0 auto;
 }
 
 
